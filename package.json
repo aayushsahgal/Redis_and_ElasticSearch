@@ -1,0 +1,20 @@
+{
+  "name": "cloudboost",
+  "version": "1.0.0",
+  "description": "Redis and elasticsearch querying",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Aayush Sahgal",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.0.0-rc.3",
+    "body-parser": "^1.15.0",
+    "elasticsearch": "^11.0.0",
+    "express": "^4.13.4",
+    "morgan": "^1.7.0",
+    "redis": "^2.6.0-1"
+  }
+}
